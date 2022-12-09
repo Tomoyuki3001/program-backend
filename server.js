@@ -29,4 +29,6 @@ app.get("/", (req, res) => {
 app.use("/students", studentRoute);
 app.use("/schedule", scheduleRoute);
 
-app.listen(port, () => console.log(`Server is running on port ${port}`));
+app.listen(process.env.PORT || port, () =>
+  console.log(`Server is running on port ${port}`)
+);

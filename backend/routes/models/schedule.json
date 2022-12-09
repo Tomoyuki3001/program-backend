@@ -1,0 +1,38 @@
+{
+  "Ellise": {
+    "id": 1,
+    "name": "Ellise Bradshaw",
+    "avatar": "https://github.com/umuterbas.png",
+    "day": {
+      "Monday": ["10am", "11am", "1pm"],
+      "Tuesday": ["10am", "11am", "1pm", "2pm"],
+      "Wednesday": ["10am", "11am", "1pm", "2pm", "3pm"],
+      "Thursday": ["10am", "11am", "1pm", "2pm"],
+      "Friday": ["10am", "11am", "1pm", "2pm", "3pm"]
+    }
+  },
+  "Gus": {
+    "id": 2,
+    "name": "Gus Nicholls",
+    "avatar": "https://github.com/umuterbas.png",
+    "day": {
+      "Monday": ["10am", "11am", "1pm", "2pm", "3pm", "4pm"],
+      "Tuesday": ["10am", "11am", "1pm", "2pm"],
+      "Wednesday": ["10am", "11am", "1pm", "2pm", "3pm", "4pm"],
+      "Thursday": ["10am", "11am", "1pm", "2pm"],
+      "Friday": ["10am", "11am", "1pm", "2pm", "3pm"]
+    }
+  },
+  "Jayden": {
+    "id": 3,
+    "name": "Jayden-James Stanley",
+    "avatar": "https://github.com/umuterbas.png",
+    "day": {
+      "Monday": ["10am", "11am", "1pm"],
+      "Tuesday": ["10am", "11am", "1pm", "2pm"],
+      "Wednesday": ["10am", "11am", "1pm", "2pm", "3pm"],
+      "Thursday": ["10am", "11am"],
+      "Friday": ["10am", "11am", "1pm", "2pm", "3pm"]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+ALTER SEQUENCE appointment_id_seq RESTART WITH 5;

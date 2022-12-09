@@ -7,7 +7,7 @@ const cookieSession = require("cookie-session");
 const app = express();
 const path = require("path");
 
-app.use(express.static(__dirname + "build"));
+app.use(express.static(path.join(__dirname, "build")));
 
 console.log("__dirname", __dirname);
 

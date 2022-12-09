@@ -22,12 +22,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
 
-app.get("/", (req, res) => {
+// app.get("/", (req, res) => {
+//   res.sendFile(path.join(__dirname, "build", "index.html"));
+// });
+
+app.use("/api/students", studentRoute);
+app.use("/api/schedule", scheduleRoute);
+
+app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
-
-app.use("/students", studentRoute);
-app.use("/schedule", scheduleRoute);
 
 app.listen(process.env.PORT || port, () =>
   console.log(`Server is running on port ${port}`)
